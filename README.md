@@ -17,7 +17,7 @@ This assignment focuses on understanding and implementing Python Strings and Tup
 
 ## 🧩 Topics Covered
 
-### ** 1. String Concatenation**
+### 1. String Concatenation
 The assignment demonstrates how to:
 -	Accept user input using input() 
 -	Concatenate strings using + 
@@ -36,7 +36,7 @@ result = str1 + str3
 print(result)
 ```
 
-### ** 2. String Indexing & Slicing**
+### 2. String Indexing & Slicing
 The following operations are performed:
 
 ```
