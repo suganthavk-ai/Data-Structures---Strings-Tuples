@@ -24,23 +24,28 @@ The assignment demonstrates how to:
 -	Add additional text to an existing string
 
 Example:
-```name = input("Enter your Name: ")
+
+```
+name = input("Enter your Name: ")
 
 str1 = "Hello " + name
 str3 = ", welcome to Python programming"
 
 result = str1 + str3
 
-print(result)```
+print(result)
+```
 
 ### ** 2. String Indexing & Slicing**
 The following operations are performed:
 
-``` result[0]       # First character
+```
+result[0]       # First character
 result[-1]      # Last character
 result[:5]      # First 5 characters
 result[-11:]    # Last 11 characters
-result[::-1]    # Reverse string```
+result[::-1]    # Reverse string
+```
 
 The assignment also extracts the word "Python" using index() and slicing.
 
@@ -55,13 +60,15 @@ The assignment uses the following built-in string methods:
 | replace() | Replaces specified text |
 
 Example:
-```strM = "Python beginner tutorial"
+```
+strM = "Python beginner tutorial"
 
 print(strM.upper())
 print(strM.lower())
 print(strM.capitalize())
 print(strM.count("t"))
-print(strM.replace("Python", "Data Analytics"))```
+print(strM.replace("Python", "Data Analytics"))
+```
 
 These methods are specifically included in the assignment requirements.
 
@@ -76,13 +83,15 @@ The assignment performs:
 -	Tuple slicing 
 Example:
 
-``` t_combine = t1 + t2
+```
+t_combine = t1 + t2
 t_repeat = t_combine * 3
 print(t_combine[2])
 print(t_combine[:3])
 print(t_combine[-3:])
 The expected combined tuple is:
-(10, 20, 30, 40, 50, 60)```
+(10, 20, 30, 40, 50, 60)
+```
 
 ### 📚 Skills Practiced
 
